@@ -1,0 +1,54 @@
+// FONT STACKS
+$font-url-google: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900';
+$font-family--primary: 'Source Sans Pro', 'Helvitca Neue', Helvetica, Arial, sans-serif;
+$font-family--secondary: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// FONT WEIGHTS
+$font-weight--thin: 200;
+$font-weight--light: 300;
+$font-weight--medium: 400;
+$font-weight--heavy: 600;
+$font-weight--bold: 700;
+$font-weight--ultra-bold: 900;
+
+// BASE COLORS
+$white: #fff;
+$black: #1a1a1a;
+$grey: #808080;
+
+$aqua: #41e7c1;
+$blue: #53daf8;
+$green: #67cb84;
+$red: #e2767c;
+$orange: #ff7459;
+$purple: #927dbf;
+
+// COLOR USAGE
+$color-primary: $blue;
+$color-seconday: $aqua;
+
+// UI COLORS
+$ui-colors: (
+    default: $blue,
+    success: $green,
+    error: $red,
+    warning: $orange,
+    info: $purple
+);
+
+// PATH TO ASSETS
+$path--rel: "../images";
+
+// BREAKPOINTS
+$brkpoint-sm: 1px;
+$brkpoint-md: 768px;
+$brkpoint-lg: 1024px;
+
+// BORDER RADIUS
+$br--default    : .4em;
+$br--round      : 50%;
+
+// TEXT
+$base__font-size : 16px;
+$base__line      : 24px;
+$letter-space    : 1px;

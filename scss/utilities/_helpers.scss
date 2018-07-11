@@ -1,0 +1,15 @@
+
+// CLEARFIX
+%clearfix {
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+// CENTER ALIGN
+%center-align {
+	text-align: center;
+}
+
