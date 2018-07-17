@@ -10,7 +10,8 @@
 
 .img--logo {
     width: em(150px);
-    align-self: center;
+    display: block;
+    margin: auto;
 }
 
 .nav__item {
@@ -32,5 +33,6 @@
         background-color: $color-secondary;
         border-radius: $br--default;
         color: $white;
+        font-weight: $font-weight--heavy;
     }
 };

@@ -378,7 +378,8 @@ ul {
 
 .img--logo {
   width: 8.3333333333em;
-  align-self: center; }
+  display: block;
+  margin: auto; }
 
 .nav__item {
   list-style-type: none; }
@@ -394,7 +395,8 @@ ul {
   .nav :hover {
     background-color: #41e7c1;
     border-radius: 0.2em;
-    color: #fff; }
+    color: #fff;
+    font-weight: 600; }
 
 .headline--secondary {
   font-size: 1.1111111111em;
