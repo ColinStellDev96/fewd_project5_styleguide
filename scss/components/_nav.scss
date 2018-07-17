@@ -1,9 +1,5 @@
 .grid__row {
     padding-top: em(32px);
-}
-
-.grid__row,
-.nav {
     @extend %flex;
     flex-direction: column;
 }

@@ -22,6 +22,7 @@ $green: #67cb84;
 $red: #e2767c;
 $orange: #ff7459;
 $purple: #927dbf;
+$purple-light: #9a6cff;
 
 // COLOR USAGE
 $color-primary: $blue;
@@ -35,6 +36,17 @@ $ui-colors: (
     warning: $orange,
     info: $purple
 );
+
+$grid-colors: (
+    12: $aqua,
+    6: darken($blue, 20%),
+    4: $blue,
+    3: lighten($purple-light, 12%),
+    5: lighten($green, 12%),
+    7: lighten($red, 12%),
+    8: lighten($orange, 12%)
+);
+    
 
 // PATH TO ASSETS
 $path--rel: "../images";

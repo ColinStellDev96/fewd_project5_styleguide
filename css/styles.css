@@ -1,8 +1,7 @@
 .nav a {
   text-align: center; }
 
-.grid__row,
-.nav {
+.grid__row {
   display: flex; }
 
 .nav a {
@@ -370,10 +369,7 @@ ul {
   background-color: #927dbf; }
 
 .grid__row {
-  padding-top: 1.7777777778em; }
-
-.grid__row,
-.nav {
+  padding-top: 1.7777777778em;
   flex-direction: column; }
 
 .img--logo {
@@ -398,9 +394,25 @@ ul {
     color: #fff;
     font-weight: 600; }
 
+.grid__col--12 {
+  background-color: #41e7c1; }
+.grid__col--6 {
+  background-color: #09b6dc; }
+.grid__col--4 {
+  background-color: #53daf8; }
+.grid__col--3 {
+  background-color: #c4a9ff; }
+.grid__col--5 {
+  background-color: #95dba9; }
+.grid__col--7 {
+  background-color: #eda9ac; }
+.grid__col--8 {
+  background-color: #ffa796; }
+
 .headline--secondary {
   font-size: 1.1111111111em;
-  font-weight: 200; }
+  font-weight: 200;
+  padding: 1.1111111111em 0; }
 
 .headline--primary {
   color: #41e7c1;
