@@ -4,3 +4,29 @@ body {
     font-family: $font-family--primary;
     line-height: ($base__line/$base__font-size);
 }
+
+h4 {
+    font-size: em(20px);
+    font-weight: $font-weight--thin;
+}
+
+.headline--primary {
+    color: $aqua;
+    padding-left: 1em;
+}
+
+.link {
+    color: $blue;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.blockquote {
+    font-style: italic;
+    font-size: $base__line;
+    font-weight: $font-weight--light;
+    margin-right: em(20px);
+    padding-left: em(15px);
+    border-left: em(5px) solid $aqua;
+    border-radius: em(3px);
+}

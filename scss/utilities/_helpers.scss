@@ -13,3 +13,16 @@
 	text-align: center;
 }
 
+// Flex-Box
+%flex {
+  display:flex;
+}
+
+//LINK: REMOVE DEFAULT STYLES
+%text-dec {
+  text-decoration: none;
+}
+
+%letter-space {
+  letter-spacing: em(.5px)
+}

@@ -1,0 +1,36 @@
+.grid__row {
+    padding-top: em(32px);
+}
+
+.grid__row,
+.nav {
+    @extend %flex;
+    flex-direction: column;
+}
+
+.img--logo {
+    width: em(150px);
+    align-self: center;
+}
+
+.nav__item {
+    list-style-type: none;
+}
+
+.nav {
+    margin: em(24px) em(16px);
+    a {
+        @extend %center-align;
+        @extend %text-dec;
+        display: block;
+        color: $grey;
+        font-size: em(18px);
+        font-weight: $font-weight--light;
+        padding: .4em;
+    }
+    :hover {
+        background-color: $color-secondary;
+        border-radius: $br--default;
+        color: $white;
+    }
+};

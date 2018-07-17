@@ -4,6 +4,7 @@
     @include m(frame) {
       border: 1px solid $grey;
       padding: em(12px);
+      width: 100%;
     }
     @include m(avatar) {
       display: block;
