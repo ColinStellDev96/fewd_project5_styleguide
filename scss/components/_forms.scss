@@ -1,0 +1,15 @@
+.form__label--hidden {
+    display: none;
+}
+
+.form__input{
+    width: 95%;
+    margin: em(10px);
+    margin-top: em(20px);
+    border: none;
+    border-bottom: 5px solid $aqua;
+    padding-left: em(10px);
+    padding-bottom: em(13px);
+    font-size: em(16px);
+    font-weight: 500px;
+}

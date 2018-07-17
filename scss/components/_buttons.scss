@@ -1,0 +1,9 @@
+.btn {
+    @include bg-colors($ui-colors);
+    
+}
+
+[class^="btn--"] {
+    @extend %btn;
+}
+   

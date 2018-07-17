@@ -26,3 +26,15 @@
 %letter-space {
   letter-spacing: em(.5px)
 }
+
+%btn {
+  width: 95%;
+  border: none;
+  padding: em(16px) 0;
+  margin: em(10px);
+  color: $white;
+  text-transform: uppercase;
+  font-size: em(16px);
+  font-weight: 600;
+  border-radius: em(5px);
+}

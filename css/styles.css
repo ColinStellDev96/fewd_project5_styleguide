@@ -8,6 +8,17 @@
 .nav a {
   text-decoration: none; }
 
+[class^="btn--"] {
+  width: 95%;
+  border: none;
+  padding: 0.8888888889em 0;
+  margin: 0.5555555556em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8888888889em;
+  font-weight: 600;
+  border-radius: 0.2777777778em; }
+
 .img--frame {
   border: 1px solid #808080;
   padding: 0.6666666667em;
@@ -320,7 +331,11 @@ template {
 
 * {
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  color: #808080;
+  font-size: 18px;
+  font-family: "Source Sans Pro", "Helvitca Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.3333333333; }
 
 .container {
   width: 90%;
@@ -328,6 +343,31 @@ template {
 
 ul {
   -webkit-padding-start: 0; }
+
+.form__label--hidden {
+  display: none; }
+
+.form__input {
+  width: 95%;
+  margin: 0.5555555556em;
+  margin-top: 1.1111111111em;
+  border: none;
+  border-bottom: 5px solid #41e7c1;
+  padding-left: 0.5555555556em;
+  padding-bottom: 0.7222222222em;
+  font-size: 0.8888888889em;
+  font-weight: 500px; }
+
+.btn--default {
+  background-color: #53daf8; }
+.btn--success {
+  background-color: #67cb84; }
+.btn--error {
+  background-color: #e2767c; }
+.btn--warning {
+  background-color: #ff7459; }
+.btn--info {
+  background-color: #927dbf; }
 
 .grid__row {
   padding-top: 1.7777777778em; }
@@ -356,13 +396,7 @@ ul {
     border-radius: 0.2em;
     color: #fff; }
 
-body {
-  color: #808080;
-  font-size: 18px;
-  font-family: "Source Sans Pro", "Helvitca Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.3333333333; }
-
-h4 {
+.headline--secondary {
   font-size: 1.1111111111em;
   font-weight: 200; }
 

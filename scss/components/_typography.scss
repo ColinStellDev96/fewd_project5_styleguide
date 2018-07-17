@@ -1,11 +1,5 @@
-body {
-    color: $grey;
-    font-size: $base__font-size;
-    font-family: $font-family--primary;
-    line-height: ($base__line/$base__font-size);
-}
 
-h4 {
+.headline--secondary {
     font-size: em(20px);
     font-weight: $font-weight--thin;
 }
