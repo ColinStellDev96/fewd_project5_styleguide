@@ -13,6 +13,13 @@
 	text-align: center;
 }
 
+//IMG STYLES
+%image-style {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 // Flex-Box
 %flex {
   display:flex;
@@ -27,6 +34,7 @@
   letter-spacing: em(.5px)
 }
 
+// BUTTON STYLES
 %btn {
   width: 95%;
   border: none;
@@ -39,6 +47,7 @@
   border-radius: em(5px);
 }
 
+// GRID STYLES
 %grid {
   width: 95%;
   border: none;

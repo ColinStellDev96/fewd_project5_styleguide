@@ -2,15 +2,38 @@
 
 .img {
     @include m(frame) {
+      @extend %image-style;
       border: 1px solid $grey;
       padding: em(12px);
       width: 100%;
+      @media (min-width: 1024px) {
+        width: auto;
+      }
     }
     @include m(avatar) {
-      display: block;
+      @extend %image-style;
       border-radius: $br--round;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: em(24px);
     }
   }
+
+  .link {
+    color: $blue;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.headline--secondary {
+  font-size: em(20px);
+  font-weight: $font-weight--thin;
+  padding: em(20px) 0;
+  margin: 0;
+}
+
+.headline--primary {
+  color: $aqua;
+  padding-left: 1em;
+}
+
+.nav__item {
+  list-style-type: none;
+}
