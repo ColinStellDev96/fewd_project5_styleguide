@@ -5,8 +5,8 @@
 [class^="btn--"] {
     @extend %btn;
     @include mq(large){
-        display: flex-inline;
-        justify-content: center;
+        @include flex(flex, row, nowrap, space-between);
+        @extend .centered;
     }
 }
    

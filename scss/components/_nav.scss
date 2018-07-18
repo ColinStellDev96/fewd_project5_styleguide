@@ -1,7 +1,6 @@
 .grid__row {
     padding-top: em(32px);
-    @extend %flex;
-    flex-direction: column;
+    @include flex(flex, column);
     @include mq(large){
         justify-content: space-between;
         flex-direction: row;
