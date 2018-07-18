@@ -32,7 +32,7 @@
   //
   @mixin bg-colors($map) {
     @each $theme, $color in $map {
-      &--#{$theme}{
+      &--#{$theme}.theme__colors{
         background-color: $color;    
       }
     }

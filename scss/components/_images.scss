@@ -1,0 +1,5 @@
+.img--frame, .img--avatar {
+    @include mq(large) {
+        height: auto;
+    }
+}

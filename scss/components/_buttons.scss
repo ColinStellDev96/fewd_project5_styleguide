@@ -4,5 +4,9 @@
 
 [class^="btn--"] {
     @extend %btn;
+    @include mq(large){
+        display: flex-inline;
+        justify-content: center;
+    }
 }
    
