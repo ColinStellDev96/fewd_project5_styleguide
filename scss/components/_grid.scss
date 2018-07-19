@@ -1,3 +1,11 @@
+.container {
+    max-width: 90%;
+    margin: auto;
+    @include mq(large){
+        max-width: 1400px;
+    }
+}
+
 .grid__col {
     @include bg-colors($grid-colors);
 }

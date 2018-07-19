@@ -25,7 +25,7 @@
   border: none;
   padding: 0.8888888889em 0;
   margin: 0.5555555556em;
-  font-size: 0.8888888889em;
+  font-size: 18px;
   border-radius: 0.2777777778em; }
 
 .img--frame {
@@ -47,7 +47,8 @@
   font-size: 1.1111111111em;
   font-weight: 200;
   padding: 1.1111111111em 0;
-  margin: 0; }
+  margin: 0;
+  text-align: left; }
 
 .headline--primary {
   color: #41e7c1;
@@ -359,14 +360,6 @@ template {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.container {
-  width: 90%;
-  margin: auto;
-  color: #808080;
-  font-size: 18px;
-  font-family: "Source Sans Pro", "Helvitca Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.3333333333; }
-
 ul {
   -webkit-padding-start: 0; }
 
@@ -453,6 +446,13 @@ ul {
     color: #fff;
     font-weight: 600; }
 
+.container {
+  max-width: 90%;
+  margin: auto; }
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1400px; } }
+
 .grid__col--12.theme__colors {
   background-color: #41e7c1; }
 .grid__col--6.theme__colors {
@@ -487,6 +487,12 @@ ul {
 @media (min-width: 1024px) {
   .grid__col--8 {
     flex-shrink: .5; } }
+
+.container {
+  color: #808080;
+  font-size: 18px;
+  font-family: "Source Sans Pro", "Helvitca Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.3333333333; }
 
 .blockquote {
   font-style: italic;
