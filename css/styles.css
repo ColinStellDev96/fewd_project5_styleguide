@@ -51,7 +51,7 @@
 
 .headline--primary {
   color: #41e7c1;
-  padding-left: 1em; }
+  padding-left: .5em; }
 
 .nav__item {
   list-style-type: none; }
@@ -470,14 +470,23 @@ ul {
 
 @media (min-width: 1024px) {
   [class^="grid__col"] {
-    width: 100%; } }
+    width: 100%;
+    text-align: center; } }
 
 @media (min-width: 1024px) {
   .centered {
     display: block;
     margin: auto;
-    width: 75%;
+    width: 65%;
     margin-bottom: 1.3333333333em; } }
+
+@media (min-width: 1024px) {
+  .grid__col--5 {
+    flex-shrink: 1.4; } }
+
+@media (min-width: 1024px) {
+  .grid__col--8 {
+    flex-shrink: .5; } }
 
 .blockquote {
   font-style: italic;

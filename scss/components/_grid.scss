@@ -6,6 +6,7 @@
     @extend %grid;
     @include mq(large) {
         width: 100%;
+        text-align: center;
     }
 }
 
@@ -13,7 +14,19 @@
     @include mq(large) {
         display: block;
         margin: auto;
-        width: 75%;
+        width: 65%;
         margin-bottom: em(24px);
+    }
+}
+
+.grid__col--5 {
+    @include mq(large){
+        flex-shrink: 1.4;
+    }
+}
+
+.grid__col--8 {
+    @include mq(large) {
+        flex-shrink: .5;
     }
 }
