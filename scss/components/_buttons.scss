@@ -5,8 +5,16 @@
 [class^="btn--"] {
     @extend %btn;
     @include mq(large){
-        @include flex(flex, row, nowrap, space-between);
-        @extend .centered;
-    }
+     @include flex(flex-inline);
+        margin: 0 em(35px);
+        width: 15%;
+      }
+}
+
+.btn--default[type="submit"] {
+    @include mq(large){
+        margin: em(10px);
+        width: 95%;
+      }
 }
    

@@ -405,10 +405,14 @@ ul {
 
 @media (min-width: 1024px) {
   [class^="btn--"] {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between; } }
+    display: flex-inline;
+    margin: 0 1.9444444444em;
+    width: 15%; } }
+
+@media (min-width: 1024px) {
+  .btn--default[type="submit"] {
+    margin: 0.5555555556em;
+    width: 95%; } }
 
 .grid__row {
   padding-top: 1.7777777778em;
@@ -469,7 +473,7 @@ ul {
     width: 100%; } }
 
 @media (min-width: 1024px) {
-  .centered, [class^="btn--"] {
+  .centered {
     display: block;
     margin: auto;
     width: 75%;
