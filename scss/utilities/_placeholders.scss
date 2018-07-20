@@ -8,6 +8,7 @@
       width: 100%;
       @media (min-width: 1024px) {
         width: auto;
+        height: auto;
       }
     }
     @include m(avatar) {
@@ -16,7 +17,7 @@
     }
   }
 
-  .link {
+.link {
     color: $blue;
     font-weight: 700;
     text-decoration: none;

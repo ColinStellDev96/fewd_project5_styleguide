@@ -1,19 +1,10 @@
 
-// CLEARFIX
-%clearfix {
-    &:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-  }
-
 // CENTER ALIGN
 %center-align {
 	text-align: center;
 }
 
-//IMG STYLES
+// IMG STYLES
 %image-style {
   display: block;
   margin-left: auto;

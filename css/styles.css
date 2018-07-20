@@ -34,7 +34,8 @@
   width: 100%; }
   @media (min-width: 1024px) {
     .img--frame {
-      width: auto; } }
+      width: auto;
+      height: auto; } }
 .img--avatar {
   border-radius: 50%; }
 
@@ -363,6 +364,16 @@ template {
 ul {
   -webkit-padding-start: 0; }
 
+.img--logo {
+  width: 8.3333333333em;
+  display: block;
+  margin: auto; }
+  @media (min-width: 1024px) {
+    .img--logo {
+      display: inline-block;
+      justify-content: flex-start;
+      width: 10em; } }
+
 @media (min-width: 1024px) {
   .img--frame, .img--avatar {
     height: auto; } }
@@ -423,7 +434,7 @@ ul {
   @media (min-width: 1024px) {
     .img--logo {
       display: inline-block;
-      align-content: flex-end;
+      justify-content: flex-start;
       width: 10em; } }
 
 .nav {

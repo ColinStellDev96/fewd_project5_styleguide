@@ -1,3 +1,14 @@
+.img--logo {
+    width: em(150px);
+    display: block;
+    margin: auto;
+    @include mq(large) {
+        display: inline-block;
+        justify-content: flex-start;
+        width: em(180px);
+    }
+}
+
 .img--frame, .img--avatar {
     @include mq(large) {
         height: auto;
