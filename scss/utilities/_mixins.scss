@@ -21,19 +21,12 @@
     }
   };
 
-  // BEM SELECTORS
-
-  @mixin m($modifier) {
-    &--#{$modifier} {
-      @content;
-    }
-  };
-
   // MAPS
   @mixin bg-colors($map) {
     @each $theme, $color in $map {
       &--#{$theme}.theme__colors{
-        background-color: $color;    
+        background-color: $color;
+        text-align: center;    
       }
     }
   }

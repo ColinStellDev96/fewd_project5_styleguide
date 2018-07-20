@@ -1,3 +1,12 @@
+.grid__row {
+    padding-top: em(32px);
+    @include flex(flex, column);
+    @include mq(large){
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+
 .container {
     max-width: 90%;
     margin: auto;
@@ -14,7 +23,6 @@
     @extend %grid;
     @include mq(large) {
         width: 100%;
-        text-align: center;
     }
 }
 

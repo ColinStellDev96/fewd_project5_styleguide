@@ -1,22 +1,3 @@
-.grid__row {
-    padding-top: em(32px);
-    @include flex(flex, column);
-    @include mq(large){
-        justify-content: space-between;
-        flex-direction: row;
-    }
-}
-
-.img--logo {
-    width: em(150px);
-    display: block;
-    margin: auto;
-    @include mq(large) {
-        display: inline-block;
-        justify-content: flex-start;
-        width: em(180px);
-    }
-}
 
 .nav {
     margin: em(24px) em(16px);
@@ -42,3 +23,7 @@
         font-weight: $font-weight--heavy;
     }
 };
+
+.nav__item {
+  @extend %nav__item;
+}

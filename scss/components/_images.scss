@@ -9,8 +9,24 @@
     }
 }
 
-.img--frame, .img--avatar {
-    @include mq(large) {
+// .img--frame, .img--avatar {
+//     @include mq(large) {
+//         height: auto;
+//     }
+// }
+
+.img--frame {
+    @extend %image-style;
+    border: 1px solid $grey;
+    padding: em(12px);
+    width: 100%;
+    @include mq (large) {
+        width: auto;
         height: auto;
     }
+}
+
+.img--avatar {
+    @extend %image-style;
+    border-radius: $br--round;
 }

@@ -1,29 +1,35 @@
-// IMAGES
 
-.img {
-    @include m(frame) {
-      @extend %image-style;
-      border: 1px solid $grey;
-      padding: em(12px);
-      width: 100%;
-      @media (min-width: 1024px) {
-        width: auto;
-        height: auto;
-      }
-    }
-    @include m(avatar) {
-      @extend %image-style;
-      border-radius: $br--round;
-    }
-  }
-
-.link {
-    color: $blue;
-    font-weight: 700;
-    text-decoration: none;
+// CENTER ALIGN
+%center-align {
+	text-align: center;
 }
 
-.headline--secondary {
+// IMG STYLES
+%image-style {
+  display: block;
+  margin: 0 auto;
+}
+
+//LINK: REMOVE DEFAULT STYLES
+%text-dec {
+  text-decoration: none;
+}
+
+//LINK
+%link {
+  color: $blue;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+// HEADLINES
+%primary {
+  color: $aqua;
+  padding-left: .5em;
+  text-align: left;
+}
+
+%secondary {
   font-size: em(20px);
   font-weight: $font-weight--thin;
   padding: em(20px) 0;
@@ -31,11 +37,32 @@
   text-align: left;
 }
 
-.headline--primary {
-  color: $aqua;
-  padding-left: .5em;
-}
-
-.nav__item {
+// NAV ITEMS
+%nav__item {
   list-style-type: none;
 }
+
+// BUTTON STYLES
+%btn {
+  width: 95%;
+  border: none;
+  padding: em(16px) 0;
+  margin: em(10px);
+  color: $white;
+  text-transform: uppercase;
+  font-size: em(16px);
+  font-weight: 600;
+  border-radius: em(5px);
+}
+
+// GRID STYLES
+%grid {
+  width: 95%;
+  border: none;
+  padding: em(16px) 0;
+  margin: em(10px);
+  font-size: $base__font-size;
+  border-radius: em(5px);
+}
+
+
