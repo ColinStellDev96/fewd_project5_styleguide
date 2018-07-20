@@ -46,10 +46,6 @@ $grid-colors: (
     7: lighten($red, 12%),
     8: lighten($orange, 12%)
 );
-    
-
-// PATH TO ASSETS
-$path--rel: "../images";
 
 // BREAKPOINTS
 $brkpoint-sm: 1px;
@@ -63,4 +59,3 @@ $br--round      : 50%;
 // TEXT
 $base__font-size : 18px;
 $base__line      : 24px;
-$letter-space    : 1px;
