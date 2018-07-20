@@ -2,7 +2,7 @@
     @include bg-colors($ui-colors);
 }
 
-[class^="btn--"] {
+[class*="btn--"] {
     @extend %btn;
     @include mq(large){
      @include flex(flex-inline);

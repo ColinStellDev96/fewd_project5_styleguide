@@ -28,7 +28,7 @@
 .nav__item {
   list-style-type: none; }
 
-[class^="btn--"] {
+[class*="btn--"] {
   width: 95%;
   border: none;
   padding: 0.8888888889em 0;
@@ -410,7 +410,7 @@ ul {
   text-align: center; }
 
 @media (min-width: 1024px) {
-  [class^="btn--"] {
+  [class*="btn--"] {
     display: flex-inline;
     margin: 0 1.9444444444em;
     width: 15%; } }
